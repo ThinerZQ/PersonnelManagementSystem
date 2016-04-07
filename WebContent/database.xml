@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<database-product name="mysql">
+		<driver-name>com.mysql.jdbc.Driver</driver-name>;
+		<url-pattern>jdbc:mysql://localhost:3306/</url-pattern>
+		<database-name>softwareassignment</database-name>
+		<database-name>any</database-name>
+		<user name="root" password="193746"></user>
+		<user name="tiger" password="tiger"></user>
+	</database-product>
+	<database-product name="sql2005">
+		<driver-name>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-name>;
+		<url-pattern>jdbc:sqlserver://localhost:1433;DatabaseName=</url-pattern>
+		<database-name>software</database-name>
+		<user name="sa" password="zhengqiang"></user>
+	</database-product>
+</database>

@@ -1,0 +1,31 @@
+DESC USER;
+INSERT INTO USER VALUES(1,'过儿来了','郑强','ghengqianz','601097836@qq.com','男',1);
+INSERT INTO USER VALUES(2,'想听什么baby','徐泽','euzx','601097836@qq.com','男',2);
+INSERT INTO USER VALUES(3,'过儿来了','小东','giaodonx','601097836@qq.com','男',3);
+INSERT INTO USER VALUES(4,'debug_myself','王浩','oanghaw','601097836@qq.com','男',4);
+INSERT INTO USER VALUES(5,'admin','杰欣','niexij','601097836@qq.com','男',5);
+INSERT INTO USER VALUES(6,'呵呵','青龙','ginglonq','601097836@qq.com','男',6);
+INSERT INTO USER VALUES(7,'傻妹子','叶哥','eegy','601097836@qq.com','女',1);
+INSERT INTO USER VALUES(8,'猫咪','刘海鑫','giuhaixinl','601097836@qq.com','女',2);
+INSERT INTO USER VALUES(10,'安静','王欣','nangxiw','601097836@qq.com','女',3);
+INSERT INTO USER VALUES(11,'鬼鬼','胡静楠','nujinnah','601097836@qq.com','女',4);
+INSERT INTO USER VALUES(12,'暗暗','暗暗','nnaa','601097836@qq.com','女',5);
+INSERT INTO USER VALUES(13,'六六','刘歆颖','niuxinyil','601097836@qq.com','女',6);
+INSERT INTO USER VALUES(14,'小黄','小黄','giaohuanx','601097836@qq.com','女',1);
+DELETE FROM USER WHERE id=1;
+DELETE FROM USER WHERE id=2;
+DELETE FROM USER WHERE id=3;
+DELETE FROM USER WHERE id=4;
+DELETE FROM USER WHERE id=5;
+DELETE FROM USER WHERE id=6;
+DELETE FROM USER WHERE id=7;
+INSERT INTO department VALUES(1,'市场部');
+
+SELECT * FROM USER;
+INSERT INTO department VALUES(2,'人事部');
+INSERT INTO department VALUES(3,'销售部');
+INSERT INTO department VALUES(4,'研发部');
+INSERT INTO department VALUES(5,'办公室');
+INSERT INTO department VALUES(6,'项目管理部');
+
+SELECT id,realname FROM USER WHERE department_id=1;

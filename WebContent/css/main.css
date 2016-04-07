@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+
+.content{
+	
+	width: 800px;
+	margin:10px auto;
+	/*background-color: red;*/
+	height: auto;
+}
+.imformation {
+	
+}
+.imformation tr :hover{
+	background-color: orange;
+}
+.imformation tr td{
+	text-align: center;
+}

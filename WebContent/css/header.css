@@ -1,0 +1,76 @@
+.header{
+	width: 800px;
+	height:100px;
+	border:1px solid #AAAAAA;
+	margin:10px auto;
+	background:#3B5998;
+	padding: 20px 0;
+	/*background-color: red;*/
+}
+.logo{
+	float:left;
+	margin:0 0 0 10px;
+	color:#FFF;
+	font-size:3em;
+	font-weight:700;
+	line-height:80px;
+	/*background-color: green;*/
+}
+.login{
+	float:right;
+	color:red;
+	font-size:20px;
+	margin-top:80px;
+	margin-left: 30px;
+	/*background-color: yellow;*/
+}
+.register{
+	float:right;
+	color:red;
+	font-size:20px;
+	margin-top:80px;
+	/*background-color: yellow;*/
+}
+.login_success{
+	font-size:18px;
+	color: yellow;
+	/*background-color: pink;*/
+	margin-top: 10px;
+}
+.login_realname{
+	margin-top: 40px;
+}
+.my_info{
+	float:right;
+	 width:400px ;
+	 height:120px;
+	 /*background-color: red;*/
+}
+.my_info a{
+	
+}
+.my_info img{
+	float:right;
+	width:120px ;
+	 height:120px;
+}
+.navgation{
+	width: 800px;
+	margin:10px auto;
+	height: 30px;
+	
+	/*background-color: red;*/
+}
+.navgation ul{
+	list-style-type: none;
+	/*background-color: yellow;*/
+}
+.navgation ul li{
+	float: left;
+	/*background-color: blue;*/
+	margin-right: 30px;
+	font-size:18px;
+}
+
+
+
